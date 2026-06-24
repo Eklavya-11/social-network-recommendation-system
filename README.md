@@ -16,7 +16,7 @@ Modular Python package with similarity scoring algorithms, automated testing, dy
   - 40% Shared Skills,
   - 20% Location Proximity
 - **Collaborative Filtering**: Recommends pages and content by identifying what statistically similar users interact with.
-- **Dynamic Data Generation**: Includes a procedural generator (`data_generator.py`) capable of synthesizing thousands of realistic user profiles, skills, geographic locations, and networked relationships.
+- **Dynamic Data Generation**: Includes a procedural generator (`d_gen.py`) capable of synthesizing thousands of realistic user profiles, skills, geographic locations, and networked relationships.
 - **Interactive Web Interface**: A sleek frontend built with Streamlit allowing real-time exploration of user profiles, relationship networks, and live algorithm outputs.
 - **Test-Driven Design**: Core algorithmic logic is validated against edge cases using `pytest`.
   
@@ -31,4 +31,5 @@ Users are then ranked dynamically in descending order.
 To recommend pages the user hasn't seen yet, the system aggregates the "likes" of all other users in the network, weighted by how similar those users are to the target. If a highly similar user likes a page, that page receives a massive score boost.
 
 ## Screenshots
-<img width="1919" height="865" alt="image" src="img" />
+<img  alt="image" src="https://raw.githubusercontent.com/Eklavya-11/social-network-recommendation-system/refs/heads/main/images/ipynb-img1.png" />
+<img  alt="image" src="https://raw.githubusercontent.com/Eklavya-11/social-network-recommendation-system/refs/heads/main/images/streamlit-img1.png" />
